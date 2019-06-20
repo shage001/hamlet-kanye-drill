@@ -1,0 +1,32 @@
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+  Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+.header {
+  margin: 5em 0;
+}
+
+.tweet-box {
+  margin: 5em 0;
+}
+
+.tweet {
+  margin: auto;
+  padding: 2em;
+  font-size: 2em;
+  text-align: left;
+  width: 50%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.buttons {
+  margin: 5em 0;
+}
+
+.name-button {
+  margin: 0 2em;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
