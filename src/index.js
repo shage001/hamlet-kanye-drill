@@ -25,7 +25,8 @@ class Game extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            curTweet: {text: "loading...", author: "sam"},
+            curTweet: {text: 'loading...', author: 'sam'},
+            curProfile: 'hamlet',
         };
     }
 
@@ -64,7 +65,12 @@ class Game extends React.Component {
                     <h1>Hamelt, Kanye, or Dril?</h1>
                 </div>
                 <div className="tweet-box">
-                    <div className="tweet">{this.state.curTweet.text.toLowerCase()}</div>
+                    <div className="profile-pic">
+                        <img src={require("hamlet.jpg")}/>
+                    </div>
+                    <div className="tweet">
+                        {this.state.curTweet.text.toLowerCase()}
+                    </div>
                 </div>
                 <div className="buttons">
                     <Button name="dril" onClick={() => this.handleClick()}/>
