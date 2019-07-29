@@ -7,7 +7,7 @@ import dril from './assets/img/dril.jpg';
 
 // https://community.ibm.com/community/user/imwuc/blogs/tiago-moura/2018/07/17/5-min-deployment-react-web-app-running-on-ibmcloud
 
-const twitterServiceURL = 'https://us-south.functions.cloud.ibm.com/api/v1/web/samhage%40ibm.com_dev/default/twitter_guesser.json';
+const twitterServiceURL = 'https://us-south.functions.cloud.ibm.com/api/v1/web/shage001%40gmail.com_dev/default/hamletkanyedril.json';
 const profileMap = {
     'hamlet': {'image': hamlet, 'username': 'Prince Hamlet', 'handle': '@hamletthedane'},
     'kanye': {'image': kanye, 'username': 'ye', 'handle': '@kanyewest'},
